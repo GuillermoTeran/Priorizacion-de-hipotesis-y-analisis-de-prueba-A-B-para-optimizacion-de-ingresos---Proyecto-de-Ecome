@@ -2,131 +2,94 @@
 
 ## ES Español
 
-Descripción del proyecto:
+**Rol:** Analista de Datos  
+**Herramientas:** Python (pandas, numpy, scipy, matplotlib, seaborn), Jupyter Notebook
 
-Como Analista de Datos en una gran tienda online, participé en un proyecto estratégico en conjunto con el departamento de marketing para identificar formas de aumentar los ingresos del sitio. El proyecto se dividió en dos fases: priorización de hipótesis mediante frameworks de negocio y análisis estadístico de una prueba A/B real.
+### Descripción del proyecto  
+Como Analista de Datos en una tienda online, participé en un proyecto estratégico junto con marketing para aumentar los ingresos. El proyecto constó de dos fases: priorización de hipótesis usando frameworks de negocio y análisis estadístico de una prueba A/B real.
 
-## Objetivos principales:
+### Objetivos principales  
+- Priorizar hipótesis para maximizar impacto y eficiencia en implementación.  
+- Ejecutar y analizar prueba A/B para evaluar mejoras.  
+- Detectar anomalías, validar hipótesis estadísticas y tomar decisiones basadas en datos.
 
-Priorizar hipótesis de negocio para maximizar impacto y eficiencia en la implementación.
+### Fase 1: Priorización de hipótesis  
+Se trabajó con nueve hipótesis para mejorar métricas clave (conversiones, ingresos, experiencia de usuario).
 
-Ejecutar y analizar una prueba A/B para evaluar la efectividad de posibles mejoras.
+#### Tareas realizadas  
+- Aplicación de frameworks ICE (Impact, Confidence, Effort) y RICE (Reach, Impact, Confidence, Effort).  
+- Cálculo de puntajes y ordenamiento de hipótesis según cada método.  
+- Comparación crítica entre prioridades ICE vs. RICE, mostrando cómo el alcance (Reach) cambia la percepción de valor.
 
-Detectar anomalías, validar hipótesis estadísticas y tomar decisiones fundamentadas.
+### Fase 2: Análisis del test A/B  
+Análisis detallado de datos de usuarios, ingresos y visitas para grupos A y B.
 
-## Fase 1: Priorización de hipótesis
+#### Análisis exploratorio y estadístico  
+- Visualización de ingresos acumulados y tamaño promedio de pedido por grupo.  
+- Análisis de diferencia relativa acumulada en ingresos y conversiones.  
+- Cálculo y visualización de tasas de conversión diarias.  
+- Identificación de outliers en número y monto de pedidos (percentiles 95 y 99).  
+- Evaluación del impacto de anomalías en resultados globales.
 
-Se trabajó con un conjunto de nueve hipótesis que buscaban mejorar métricas clave del negocio (conversiones, ingresos, experiencia del usuario).
+#### Pruebas estadísticas  
+- Comparación de tasas de conversión y tamaño promedio de pedido entre grupos A y B, con datos brutos y filtrados.  
+- Uso de Mann-Whitney U test para validar diferencias estadísticamente significativas.
 
-## T#areas realizadas:
+### Herramientas utilizadas  
+- Python (pandas, numpy, scipy, matplotlib, seaborn)  
+- Jupyter Notebook  
+- Análisis estadístico y visualización de datos
 
-Aplicación de los frameworks ICE (Impact, Confidence, Effort) y RICE (Reach, Impact, Confidence, Effort).
+### Resultados clave  
+- El grupo B mostró métricas superiores inicialmente, pero diferencias no fueron significativas tras eliminar outliers.  
+- Se decidió detener la prueba concluyendo ausencia de diferencias estadísticamente significativas.  
+- La priorización con RICE mostró oportunidades más eficientes que ICE, facilitando mejor asignación de recursos para futuras pruebas.
 
-Cálculo de puntajes y ordenamiento de hipótesis según cada método.
-
-Comparación y análisis crítico de la diferencia en las prioridades obtenidas por ICE y RICE, destacando cómo el alcance (Reach) puede cambiar la perspectiva de valor de una hipótesis.
-
-## Fase 2: Análisis del test A/B
-
-Utilizando los datos de comportamiento de usuarios, ingresos y visitas para los grupos de prueba A y B, se realizó un análisis detallado de la prueba A/B.
-
-## Análisis exploratorio y estadístico:
-
-Visualización del ingreso acumulado y tamaño promedio de pedido por grupo.
-
-Análisis de la diferencia relativa acumulada en métricas clave (ingresos, conversiones).
-
-Cálculo y visualización de tasas de conversión diarias.
-
-Identificación de valores atípicos en número de pedidos y monto de pedidos por usuario mediante percentiles (95 y 99).
-
-Evaluación del impacto de anomalías en los resultados generales.
-
-## Pruebas estadísticas realizadas:
-
-Comparación de tasas de conversión y tamaños promedio de pedido entre los grupos A y B, tanto con datos brutos como con datos filtrados (excluyendo outliers).
-
-Uso de pruebas de hipótesis (Mann-Whitney U test) para determinar la significancia estadística de las diferencias observadas.
-
-## Herramientas utilizadas:
-
-Python (pandas, numpy, scipy, matplotlib, seaborn)
-
-Jupyter Notebook
-
-Análisis estadístico y visualización de datos
-
-## Resultados clave:
-
-El grupo B mostró inicialmente métricas superiores, pero estas diferencias no fueron consistentemente significativas tras eliminar valores atípicos.
-
-La decisión final fue detener la prueba y concluir que no hay diferencia estadísticamente significativa entre los grupos A y B.
-
-La priorización con RICE reveló oportunidades más eficientes que con ICE, permitiendo una mejor asignación de recursos para futuras pruebas.
-
+---
 
 # Hypothesis prioritization and A/B testing analysis for revenue optimization — E-commerce project
 
-## US English 
+## US English
 
-Project description:
+**Role:** Data Analyst  
+**Tools:** Python (pandas, numpy, scipy, matplotlib, seaborn), Jupyter Notebook
 
-As a Data Analyst at a large online store, I participated in a strategic project in conjunction with the marketing department to identify ways to increase the site's revenue. The project was divided into two phases: hypothesis prioritization using business frameworks and statistical analysis of a real A/B test.
+### Project description  
+As a Data Analyst at a large online store, I participated in a strategic project with marketing to increase site revenue. The project had two phases: hypothesis prioritization using business frameworks and statistical analysis of a real A/B test.
 
-## Main objectives:
+### Main objectives  
+- Prioritize business hypotheses to maximize impact and efficiency.  
+- Execute and analyze an A/B test to evaluate improvements.  
+- Detect anomalies, validate statistical hypotheses, and make informed decisions.
 
-Prioritize business hypotheses to maximize impact and efficiency in implementation.
+### Phase 1: Hypothesis prioritization  
+Worked with nine hypotheses targeting key business metrics (conversions, revenue, user experience).
 
-Execute and analyze an A/B test to evaluate the effectiveness of possible improvements.
+#### Tasks performed  
+- Applied ICE (Impact, Confidence, Effort) and RICE (Reach, Impact, Confidence, Effort) frameworks.  
+- Calculated scores and ranked hypotheses per method.  
+- Compared and critically analyzed priority differences between ICE and RICE, highlighting the effect of reach.
 
-Detect anomalies, validate statistical hypotheses, and make informed decisions.
+### Phase 2: A/B test analysis  
+Detailed analysis of user behavior, revenue, and visits for test groups A and B.
 
-## Phase 1: Hypothesis prioritization
+#### Exploratory and statistical analysis  
+- Visualized cumulative revenue and average order size by group.  
+- Analyzed cumulative relative difference in revenue and conversions.  
+- Calculated and visualized daily conversion rates.  
+- Identified outliers in order count and amount per user using 95th and 99th percentiles.  
+- Assessed anomaly impact on overall results.
 
-We worked with a set of nine hypotheses that sought to improve key business metrics (conversions, revenue, user experience).
+#### Statistical tests performed  
+- Compared conversion rates and average order sizes between groups A and B on raw and filtered data.  
+- Used Mann-Whitney U test to determine statistical significance.
 
-## Tasks performed:
+### Tools used  
+- Python (pandas, numpy, scipy, matplotlib, seaborn)  
+- Jupyter Notebook  
+- Statistical analysis and data visualization
 
-Application of the ICE (Impact, Confidence, Effort) and RICE (Reach, Impact, Confidence, Effort) frameworks.
-
-Calculation of scores and ranking of hypotheses according to each method.
-
-Comparison and critical analysis of the difference in priorities obtained by ICE and RICE, highlighting how reach can change the value perspective of a hypothesis.
-
-## Phase 2: A/B test analysis
-
-Using user behavior, revenue, and visit data for test groups A and B, a detailed analysis of the A/B test was performed.
-
-## Exploratory and statistical analysis:
-
-Visualization of cumulative revenue and average order size by group.
-
-Analysis of the cumulative relative difference in key metrics (revenue, conversions).
-
-Calculation and visualization of daily conversion rates.
-
-Identification of outliers in the number of orders and order amount per user using percentiles (95 and 99).
-
-Evaluation of the impact of anomalies on overall results.
-
-## Statistical tests performed:
-
-Comparison of conversion rates and average order sizes between groups A and B, using both raw data and filtered data (excluding outliers).
-
-Use of hypothesis tests (Mann-Whitney U test) to determine the statistical significance of the observed differences.
-
-## Tools used:
-
-Python (pandas, numpy, scipy, matplotlib, seaborn)
-
-Jupyter Notebook
-
-Statistical analysis and data visualization
-
-## Key results:
-
-Group B initially showed superior metrics, but these differences were not consistently significant after removing outliers.
-
-The final decision was to stop the test and conclude that there was no statistically significant difference between groups A and B.
-
-Prioritization with RICE revealed more efficient opportunities than with ICE, allowing for better resource allocation for future testing.
+### Key results  
+- Group B initially showed better metrics, but differences lost significance after removing outliers.  
+- Test was stopped concluding no statistically significant difference between groups.  
+- RICE prioritization revealed more efficient opportunities than ICE, enabling better resource allocation for future tests.
