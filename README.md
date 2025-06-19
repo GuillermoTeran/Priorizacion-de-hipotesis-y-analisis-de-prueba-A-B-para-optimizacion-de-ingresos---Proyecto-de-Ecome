@@ -1,4 +1,7 @@
 # Priorización de hipótesis y análisis de prueba A/B para optimización de ingresos — Proyecto de E-commerce
+
+## ES Español
+
 Descripción del proyecto:
 
 Como Analista de Datos en una gran tienda online, participé en un proyecto estratégico en conjunto con el departamento de marketing para identificar formas de aumentar los ingresos del sitio. El proyecto se dividió en dos fases: priorización de hipótesis mediante frameworks de negocio y análisis estadístico de una prueba A/B real.
@@ -60,3 +63,70 @@ El grupo B mostró inicialmente métricas superiores, pero estas diferencias no 
 La decisión final fue detener la prueba y concluir que no hay diferencia estadísticamente significativa entre los grupos A y B.
 
 La priorización con RICE reveló oportunidades más eficientes que con ICE, permitiendo una mejor asignación de recursos para futuras pruebas.
+
+
+# Hypothesis prioritization and A/B testing analysis for revenue optimization — E-commerce project
+
+## US English 
+
+Project description:
+
+As a Data Analyst at a large online store, I participated in a strategic project in conjunction with the marketing department to identify ways to increase the site's revenue. The project was divided into two phases: hypothesis prioritization using business frameworks and statistical analysis of a real A/B test.
+
+## Main objectives:
+
+Prioritize business hypotheses to maximize impact and efficiency in implementation.
+
+Execute and analyze an A/B test to evaluate the effectiveness of possible improvements.
+
+Detect anomalies, validate statistical hypotheses, and make informed decisions.
+
+## Phase 1: Hypothesis prioritization
+
+We worked with a set of nine hypotheses that sought to improve key business metrics (conversions, revenue, user experience).
+
+## Tasks performed:
+
+Application of the ICE (Impact, Confidence, Effort) and RICE (Reach, Impact, Confidence, Effort) frameworks.
+
+Calculation of scores and ranking of hypotheses according to each method.
+
+Comparison and critical analysis of the difference in priorities obtained by ICE and RICE, highlighting how reach can change the value perspective of a hypothesis.
+
+## Phase 2: A/B test analysis
+
+Using user behavior, revenue, and visit data for test groups A and B, a detailed analysis of the A/B test was performed.
+
+## Exploratory and statistical analysis:
+
+Visualization of cumulative revenue and average order size by group.
+
+Analysis of the cumulative relative difference in key metrics (revenue, conversions).
+
+Calculation and visualization of daily conversion rates.
+
+Identification of outliers in the number of orders and order amount per user using percentiles (95 and 99).
+
+Evaluation of the impact of anomalies on overall results.
+
+## Statistical tests performed:
+
+Comparison of conversion rates and average order sizes between groups A and B, using both raw data and filtered data (excluding outliers).
+
+Use of hypothesis tests (Mann-Whitney U test) to determine the statistical significance of the observed differences.
+
+## Tools used:
+
+Python (pandas, numpy, scipy, matplotlib, seaborn)
+
+Jupyter Notebook
+
+Statistical analysis and data visualization
+
+## Key results:
+
+Group B initially showed superior metrics, but these differences were not consistently significant after removing outliers.
+
+The final decision was to stop the test and conclude that there was no statistically significant difference between groups A and B.
+
+Prioritization with RICE revealed more efficient opportunities than with ICE, allowing for better resource allocation for future testing.
